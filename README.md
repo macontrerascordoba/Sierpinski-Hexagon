@@ -1,4 +1,4 @@
-# Sierpinski-Hexagon
+# Sierpinski Hexagon
 
 ### Description
 
