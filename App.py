@@ -69,6 +69,11 @@ class App(tk.Tk):
                     bg=colors['bg'], fg=colors['error']).place(x=275, y=200)
 
 
+        # NOTe
+        tk.Label(self, text='Note: at max speed it draws \naproximately 5 points per second', font=('Consolas bold', 10),
+                    bg=colors['bg'], fg=colors['error']).place(x=80, y=227)
+
+
         #BUTTONS
         tk.Button(self, text='START', width=9, font=('Consolas bold', 14),
                     bg=colors['sbt'], fg=colors['sbttxt'], command=self.start).place(x=155, y=270)
