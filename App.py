@@ -46,7 +46,7 @@ class App(tk.Tk):
         self.firstInput = tk.StringVar()
         tk.Entry(self, textvariable=self.firstInput, width=11,font=('OCR A Extended', 14),
                     bg=colors['title'], fg=colors['bg']).place(x=140, y=130)
-        self.firstInput.set(500)
+        self.firstInput.set(5000)
 
         self.error1 = tk.StringVar()
         tk.Label(self, textvariable=self.error1, font=('Console bold', 12),
