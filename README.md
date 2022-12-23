@@ -17,5 +17,5 @@ If you repeat this rules enough times you can see how the Sierpinski's hexagon i
 
 1. Open a terminal in the Sierpinski-Hexagon directory.
 2. Run this command: `python3 main.py`
-3. Enter the asked values (leave blank to use the default ones).
+3. Enter the asked values.
 4. Now the turtle will automatically start drawing, just wait until it finishes.
